@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>João Antonio - Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" href="/images/icon.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <span class="tag">Full Stack Developer</span>
+      <h1>João Antonio Martins</h1>
+      <p>
+        Desenvolvendo projetos de programação. Diariamente buscando ser um melhor profissional
+        atuando em tecnologias diversas áreas da tecnologia.
+      </p>
+      <div class="tech-icons">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="40" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" width="40" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" width="40" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" width="40" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+        
+      </div>
+      <div class="contact">
+        <a href="mailto:joaoantoniomaa@gmail.com"><i class="fas fa-envelope"></i> Meu email</a>
+        <a href="https://github.com/joaomaa" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
+    <div class="right">
+      <img src="images/person.png" alt="Avatar" class="avatar">
+    </div>
+    <a href="#projects" class="scroll-down">
+      <i class="fa-regular fa-circle-down"></i>
+    </a>
+  </div>
+  <div class="main-container">
+    <aside class="sidebar">
+      <span class="role-tag">Full Stack Developer</span>
+      <h1>João Antonio Martins</h1>
+      <p>Sou uma pessoa que gosta de enfrentar desafios e aprender coisas novas, principalmente na área da tecnologia.
+        Sempre busco desenvolver projetos na melhor qualidade possível e com muita vontade.</p>
+
+      <ul class="nav-list">
+        <li><strong>01</strong> - Projetos</li>
+        <li><strong>02</strong> - Contato</li>
+      </ul>
+
+      <div class="sidebar-contact">
+        <img src="https://media.licdn.com/dms/image/v2/D5603AQGNh0DjQryTWQ/profile-displayphoto-shrink_200_200/B56ZVCjxHBGQAg-/0/1740578428117?e=1753920000&v=beta&t=kuYf1slfKg7JRoqUPCAO3rBgKA6XLPyCoe1IKrmlO3g" alt="João Antonio" class="profile-pic" />
+        <a href="mailto:joaoantoniomaa@gmail.com"><i class="fas fa-envelope"></i> Meu Email</a>
+        <a href="https://github.com/joaomaa" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </aside>
+
+    <section class="projects">
+      <div class="project-card">
+        <span class="category orange">Java</span>
+        <h3>Sistema De Elevadores Inteligentes</h3>
+        <div class="card-links">
+          <a href="https://github.com/joaomaa/Simulador-De-Elevador" target="_blank"><i class="fab fa-github"></i> Github</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <span class="category red">React & Tailwind CSS</span>
+        <h3>Plataforma De Aluguel De Salão de Evento</h3>
+        <div class="card-links">
+          <a href="https://github.com/joaomaa/aluguel_de_salao" target="_blank"><i class="fab fa-github"></i> Github</a>
+          <a href="https://joaomaa.github.io/aluguel_de_salao/" target="_blank"><i class="fas fa-globe"></i> Website</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <span class="category green">React, Node & C++</span>
+        <h3>Sistema Para Controle Ambiental De Colmeias</h3>
+        <div class="card-links">
+          <a href="https://github.com/ramossskjk/Projeto-dext" target="_blank"><i class="fab fa-github"></i> Github</a>
+        </div>
+      </div>
+
+    </section>
+  </div>
+  <section class="contact-section">
+
+  <div class="contact-right">
+    <form id="contact-form">
+      <input type="text" name="user_name" placeholder="Seu nome" required />
+      <input type="email" name="user_email" placeholder="Seu email" required />
+      <textarea name="message" placeholder="Digite sua mensagem" required></textarea>
+  <button type="submit">Enviar</button>
+    </form>
+  </div>
+</section>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
